@@ -5,7 +5,7 @@ any other custom info.
 
 but you need extra steps and combain this package to finish the job. I will put the steps below.
 
-* this package only work in android.
+* this package only work in android. *
 
 # steps
 
@@ -43,11 +43,13 @@ this command will complete super fast, actually you can repack the apk file to o
 
 
 ## 4. install or share the new apk file
-for test you can you `adb install /Users/xxx/Downloads/newAPKFilePath.apk`
+for test you can run `adb install /Users/xxx/Downloads/newAPKFilePath.apk`
 
 and then you can get the Map data you need.
+
 you can get something like this.
-![screenshot](images/screenshot.jpg)
+
+<img src="./images/screenshot.jpg" width = "400" alt="screenshot" align=center />
 
 
 
