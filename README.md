@@ -32,7 +32,7 @@ fist you need downlaod this tool in [here](https://github.com/Meituan-Dianping/w
 
 and then the basic command is :
 ```
-java -jar walle-cli-all.jar put -c meituan -e buildTime=20200620,info=hello /Users/Downloads/app.apk /Users/xxx/Downloads/newAPKFilePath.apk
+java -jar walle-cli-all.jar put -c sky -e buildTime=20200620,info=hello /Users/Downloads/app.apk /Users/xxx/Downloads/newAPKFilePath.apk
 ```
 - -c : channel, you can use as referer.
 - -e : extra data, you can add any other data with `key=value` pair.
