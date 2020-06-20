@@ -5,7 +5,7 @@ homepage: https://github.com/SpringMagnolia/flutter_install_referer
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
-  flutter: ">=1.10.0"
+  flutter: ">=1.9.0"
 
 dependencies:
   flutter:
