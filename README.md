@@ -49,7 +49,7 @@ and then you can get the Map data you need.
 
 you can get something like this.
 
-<img src="./images/screenshot.jpg" width = "400" alt="screenshot" align=center />
+<img src="http://imgbu.oss-ap-southeast-5.aliyuncs.com/2020-06-21/41a98b90c2eb44769ac3752d383085d6.jpg" width = "400" alt="screenshot" align=center />
 
 
 

@@ -1,5 +1,6 @@
 name: flutter_install_referer
-description: A new flutter plugin project.
+description: This package if build for flutter to get install referer, such as channel info, install referer, downlaod time, and any other custom info that you want.
+
 version: 0.9.1
 homepage: https://github.com/SpringMagnolia/flutter_install_referer
 
