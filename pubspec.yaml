@@ -1,7 +1,6 @@
 name: flutter_install_referer
 description: A new flutter plugin project.
-version: 0.0.1
-author: SpringMagnolia
+version: 0.9.1
 homepage: https://github.com/SpringMagnolia/flutter_install_referer
 
 environment:
