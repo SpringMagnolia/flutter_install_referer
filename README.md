@@ -28,7 +28,7 @@ such as ：
 ## 3. add your referer data to apk file
 now, we need a command line tool `walle-cli` , [you can click here to see more info about this tool](https://github.com/Meituan-Dianping/walle/tree/master/walle-cli)
 
-fist you need downlaod this tool in [here](https://github.com/Meituan-Dianping/walle/releases)
+frist you need downlaod this tool in [here](https://github.com/Meituan-Dianping/walle/releases)
 
 and then the basic command is :
 ```
