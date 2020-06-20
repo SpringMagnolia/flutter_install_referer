@@ -2,7 +2,7 @@ name: flutter_install_referer
 description: A new flutter plugin project.
 version: 0.9.1
 homepage: https://github.com/SpringMagnolia/flutter_install_referer
-author: springss
+author: springss springssNotExist@gmail.com
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
