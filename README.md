@@ -1,14 +1,60 @@
 # flutter_install_referer
 
-A new flutter plugin project.
+This package if build for flutter to get install referer, such as channel info, install referer, downlaod time, and
+any other custom info.
 
-## Getting Started
+but you need extra steps and combain this package to finish the job. I will put the steps below.
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+* this package only work in android.
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+# steps
+
+## 1. install this package
+install this package in you project, and you can get your referer data as Map in this way:
+
+```dart
+Map<String,String> refererInfo = await FlutterInstallReferer.installReferer;
+```
+as you see, the data is a Map.
+
+## 2. build apk
+you can use command methods to build your project to apk file. because we will add extra data to the apk file later.
+such as ：
+
+```shell
+ flutter build apk --split-per-abi
+```
+
+## 3. add your referer data to apk file
+now, we need a command line tool `walle-cli` , [you can click here to see more info about this tool](https://github.com/Meituan-Dianping/walle/tree/master/walle-cli)
+
+fist you need downlaod this tool in [here](https://github.com/Meituan-Dianping/walle/releases)
+
+and then the basic command is :
+```
+java -jar walle-cli-all.jar put -c meituan -e buildTime=20200620,info=hello /Users/Downloads/app.apk /Users/xxx/Downloads/newAPKFilePath.apk
+```
+- -c : channel, you can use as referer.
+- -e : extra data, you can add any other data with `key=value` pair.
+- `/Users/Downloads/app.apk`：the apk file path you build last step.
+- `/Users/xxx/Downloads/newAPKFilePath.apk` new apk file path.
+
+this command will complete super fast, actually you can repack the apk file to over 100 channels in milliseconds
+
+
+## 4. install or share the new apk file
+for test you can you `adb install /Users/xxx/Downloads/newAPKFilePath.apk`
+
+and then you can get the Map data you need.
+you can get something like this.
+![screenshot](images/screenshot.jpg)
+
+
+
+
+
+
+
+
+
+
