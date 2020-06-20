@@ -5,7 +5,7 @@ any other custom info.
 
 but you need extra steps and combain this package to finish the job. I will put the steps below.
 
-* this package only work in android. *
+* this package only work in android *
 
 # steps
 
